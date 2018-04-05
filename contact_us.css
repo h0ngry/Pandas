@@ -1,0 +1,24 @@
+body{
+	margin-left: 40px;
+	padding: 2px;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	font-size: small;
+	background-image: url("backgrnd.jpg");
+	color:white;
+}
+
+h1 {
+  background-color: #A2C523;
+  border: 2px solid green;
+  width: 50%;
+
+}
+
+*.sentence{
+
+	margin : 5px;
+}
+
+a {
+    color: #4CCBFF;
+}

@@ -1,0 +1,201 @@
+
+/*
+  File: homepage.css
+
+  Author: Vaidehi Narayan , Brian Hong
+
+  Date created: 21 Mar 2018
+
+  Date modified: 21 Mar 2018
+
+*/
+
+html {
+  margin: 2px;
+  padding: 2px;
+}
+
+body {
+  margin: 2px;
+  padding: 2px;
+  color: white;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: small;
+  line-height: 200%;
+  background-image:url("backgrnd.jpg");
+}
+
+#logo {
+    position:absolute; 
+    top: 0 ;
+    left: 0; 
+    width: 100px; 
+    height: 90px;
+}
+
+.topRight {
+    position: absolute;
+    left: 620px;
+    top: 0; 
+    line-height: 100%
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  left: 100px; 
+  margin: 2px;
+  max-height: 100px;
+  width : 520px; 
+  border-bottom: 1px double;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+
+.navBar {
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  width: 720px;
+  height: 30px;
+  margin: 2px;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  padding-left: 20px;
+  text-align: center; 
+  border-bottom: 1px double; 
+}
+
+.slideshow {
+    position: absolute;
+    top: 130px;
+    width: 730px;  
+}
+
+#slide{
+    margin-left: 100px;
+}
+
+
+
+.animalForm {
+  position: absolute;
+  top: 500px;
+  left: 440px;
+  width: 250px;
+  height: 150px; 
+  margin: 2px;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  
+}
+
+
+.results {
+  position: absolute;
+  top: 670px;
+  left: 440px;
+  width: 250px;
+  height: 310px; 
+  margin: 2px;
+  padding-top: 2px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border: 1px solid green; 
+  
+}
+
+#rhino {
+    width: 220px;
+}
+
+.purpose {
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  width: 400px;
+  max-height: 650px;
+  min-height: 600px;
+  margin: 2px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  font-size: medium; 
+
+}
+
+span { 
+    font-size: large; 
+    font-weight: bold; 
+}
+
+.footerLeft {
+  position: absolute;
+  font-size: large;
+  line-height: 125%;
+  top: 1020px;
+  clear: both;
+  width: 150px;
+  height: 60px;
+  margin: 2px;
+  padding: 2px;
+  border-top: 2px solid green;
+  border-bottom: 1px solid;
+  background-color: #A2C523;
+  border-bottom: 2px solid green;
+  border-left: 2px solid green;
+  color: blue; 
+}
+
+.footerCenter {
+  position: absolute;
+  font-size: small; 
+  line-height: 125%;
+  top: 1020px;
+  left: 150px;
+  clear: both;
+  width: 300px;
+  height: 60px;
+  margin: 2px;
+  padding: 2px;
+  border-top: 2px solid green;
+  background-color: #A2C523;
+  border-bottom: 2px solid green;
+}
+
+.footerRight {
+  position: absolute;
+  font-size: small; 
+  line-height: 125%;
+  top: 1020px;
+  left: 450px;
+  clear: both;
+  width: 300px;
+  height: 60px;
+  margin: 2px;
+  padding: 2px;
+  border-top: 2px solid green;
+  background-color: #A2C523;
+  border-bottom: 2px solid green;
+  border-right: 2px solid green;
+}
+
+a {
+    color: #4CCBFF; 
+}
+
+
