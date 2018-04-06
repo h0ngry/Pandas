@@ -198,6 +198,13 @@ a {
     color: #4CCBFF; 
 }
 
+button{
+    width: 50px;
+    height: 30px;
+    color: green;
+    background-color: white; 
+}
+
 
 /*about endangered animals css stuff */
 
@@ -205,7 +212,7 @@ a {
   position: absolute; 
   top: 130px;
   left: 60px;
-  width: 500px;
+  width: 550px;
   height: 150px; 
   margin: 2px;
   padding-top: 2px;
