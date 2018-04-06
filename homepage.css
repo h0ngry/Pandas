@@ -16,6 +16,7 @@ html {
 }
 
 body {
+  position: absolute; 
   margin: 2px;
   padding: 2px;
   color: white;
@@ -36,15 +37,15 @@ body {
 }
 #logo {
     position:absolute; 
-    top: 0 ;
-    left: 250px; 
+    top: 0;
+    left: 15px; 
     width: 100px; 
     height: 90px;
 }
 
 .topRight {
     position: absolute;
-    left: 920px;
+    left: 650px;
     top: 0; 
     line-height: 100%
 }
@@ -82,7 +83,6 @@ h1 {
 
 .slideshow {
   text-align:center;
-
   margin-right: 100px;
 
  
@@ -97,7 +97,7 @@ h1 {
 .animalForm {
   position: absolute;
   top: 500px;
-  left: 700px;
+  left: 450px;
   width: 250px;
   height: 150px; 
   margin: 2px;
@@ -112,7 +112,7 @@ h1 {
 .results {
   position: absolute;
   top: 670px;
-  left: 700px;
+  left: 450px;
   width: 250px;
   height: 310px; 
   margin: 2px;
@@ -130,7 +130,7 @@ h1 {
 .purpose {
   position: absolute;
   top: 500px;
-  left: 300px;
+  left: 50px;
   width: 400px;
   max-height: 650px;
   min-height: 600px;
@@ -150,7 +150,7 @@ span {
 
 .footerLeft {
   position: absolute;
-  left: 300px;
+  left: 0px;
   font-size: large;
   line-height: 125%;
   top: 1020px;
@@ -172,7 +172,7 @@ span {
   font-size: small; 
   line-height: 125%;
   top: 1020px;
-  left: 450px;
+  left: 150px;
   clear: both;
   width: 300px;
   height: 60px;
@@ -188,7 +188,7 @@ span {
   font-size: small; 
   line-height: 125%;
   top: 1020px;
-  left: 750px;
+  left: 450px;
   clear: both;
   width: 300px;
   height: 60px;
@@ -240,5 +240,34 @@ button{
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+}
+
+#help {
+  position: absolute; 
+  top: 130px;
+  left: 60px;
+  font-size: medium; 
+  width: 600px;
+  height: 150px; 
+  margin: 2px;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px; 
+}
+
+.facts {
+  position: absolute; 
+  top: 130px;
+  left: 60px;
+  font-size: medium; 
+  width: 600px;
+  height: 150px; 
+  margin: 2px;
+  padding-top: 2px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px; 
+    
 }
 
