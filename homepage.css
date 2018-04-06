@@ -25,30 +25,32 @@ body {
   background-image:url("darkBackground.jpg");
 }
 
+#logintable{
+  position: absolute;
+  left:300px;
+}
 #logo {
     position:absolute; 
     top: 0 ;
-    left: 0; 
+    left: 250px; 
     width: 100px; 
     height: 90px;
 }
 
 .topRight {
     position: absolute;
-    left: 620px;
+    left: 920px;
     top: 0; 
     line-height: 100%
 }
 
 .header {
-  position: absolute;
-  top: 0px;
-  left: 100px; 
-  margin: 2px;
+
   max-height: 100px;
   width : 520px; 
   border-bottom: 1px double;
-  vertical-align: middle;
+  text-align: center;
+  margin: auto;
 }
 
 h1 {
@@ -62,12 +64,9 @@ h1 {
 
 
 .navBar {
-  position: absolute;
-  top: 80px;
-  left: 0px;
   width: 720px;
   height: 30px;
-  margin: 2px;
+  margin: auto;
   padding-top: 2px;
   padding-right: 20px;
   padding-bottom: 2px;
@@ -77,9 +76,11 @@ h1 {
 }
 
 .slideshow {
-    position: absolute;
-    top: 130px;
-    width: 730px;  
+  text-align:center;
+
+  margin-right: 100px;
+
+ 
 }
 
 #slide{
@@ -91,7 +92,7 @@ h1 {
 .animalForm {
   position: absolute;
   top: 500px;
-  left: 440px;
+  left: 700px;
   width: 250px;
   height: 150px; 
   margin: 2px;
@@ -106,7 +107,7 @@ h1 {
 .results {
   position: absolute;
   top: 670px;
-  left: 440px;
+  left: 700px;
   width: 250px;
   height: 310px; 
   margin: 2px;
@@ -124,7 +125,7 @@ h1 {
 .purpose {
   position: absolute;
   top: 500px;
-  left: 0px;
+  left: 300px;
   width: 400px;
   max-height: 650px;
   min-height: 600px;
@@ -144,6 +145,7 @@ span {
 
 .footerLeft {
   position: absolute;
+  left: 300px;
   font-size: large;
   line-height: 125%;
   top: 1020px;
@@ -165,7 +167,7 @@ span {
   font-size: small; 
   line-height: 125%;
   top: 1020px;
-  left: 150px;
+  left: 450px;
   clear: both;
   width: 300px;
   height: 60px;
@@ -181,7 +183,7 @@ span {
   font-size: small; 
   line-height: 125%;
   top: 1020px;
-  left: 450px;
+  left: 750px;
   clear: both;
   width: 300px;
   height: 60px;
