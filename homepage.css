@@ -25,6 +25,11 @@ body {
   background-image:url("darkBackground.jpg");
 }
 
+#help p{
+  margin-top: 0;
+
+}
+
 #logintable{
   position: absolute;
   left:300px;
